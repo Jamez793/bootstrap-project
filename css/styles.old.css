@@ -24,8 +24,7 @@ header h2 {
 }
 
 .carousel {
-    border: none;
-    min-height: 250px;
+    border: solid #5637DD;
 }
 
 .jumbotron {
@@ -48,4 +47,10 @@ header h2 {
     border: 1px solid #DDD;
     border-top: none;
     padding: 10px;
+}
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
 }
